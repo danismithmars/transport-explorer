@@ -1,0 +1,44 @@
+.card {
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card span {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.count {
+  font-size: 60px;
+  font-weight: bold;
+
+  @media (max-width: 860px) {
+    font-size: 40px;    
+  }
+}
+
+.blue {
+  background: linear-gradient(to bottom right, #eff6ff, #dbeafe);
+  color: #2563eb;
+}
+
+.green {
+  background: linear-gradient(to bottom right, #f0fdf4, #dcfce7);
+  color: #16a34a;
+}
+
+.purple {
+  background: linear-gradient(to bottom right, #faf5ff, #f3e8ff);
+  color: #9333ea;
+}
