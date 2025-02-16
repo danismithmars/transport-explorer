@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = process.env.REACT_APP_API_KEY; 
+const API_KEY = "a1e437f79628464c9ea8d542db6f6e94"; 
 const BASE_URL = "https://api.digitransit.fi/routing/v2/hsl/gtfs/v1"; 
 
 

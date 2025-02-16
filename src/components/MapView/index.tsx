@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup, useMap, Polyline, CircleMarker } from "react-leaflet";
 import { useSelector, useDispatch } from "react-redux";
-import { forwardRef, useEffect, useRef, useState } from "react";
+import { forwardRef, useEffect, useState } from "react";
 import { RootState, AppDispatch } from "../../store";
 import { setMapCenter } from "../../features/mapSlice";
 import styles from "./style.module.scss";
