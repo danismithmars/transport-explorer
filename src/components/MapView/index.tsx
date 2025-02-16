@@ -5,6 +5,8 @@ import { RootState, AppDispatch } from "../../store";
 import { setMapCenter } from "../../features/mapSlice";
 import styles from "./style.module.scss";
 import "leaflet/dist/leaflet.css";
+import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css'; 
+import 'leaflet-defaulticon-compatibility';
 
 const routeColors = ["blue", "green", "purple", "orange", "brown", "pink"];
 
